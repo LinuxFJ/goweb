@@ -112,7 +112,7 @@ func main() {
 	http.HandleFunc("/list", view)
 	err := http.ListenAndServe(":80", nil)
 	if err != nil {
-		log.Fatal("ListenAndServe:", err)
+		log.Fatal("ListenAndS erve:", err)
 		log.Debug("fancy")
 	}
 }
